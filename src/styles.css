@@ -1,0 +1,72 @@
+html {
+  background: linear-gradient(300deg, #404da2, #ac81dd , #3db43d);
+  background-size: 160% 160%;
+  animation: gradient-animation 7s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1{
+color: rgb(1, 66, 87);
+font-size: 60px;
+font-weight: 27px;
+}
+
+h2 {
+  color: rgba(79, 37, 79, 0.915);
+  padding: 25px;
+  font-size: 30px;
+  font-weight: 17px;
+}
+
+p {
+  margin: 0;
+  font-size: 27px;
+  font-weight: 15px;
+  color: #00204a;
+}
+
+.box {
+  height: 47px;
+  width: 470px;
+  outline-offset: 0cap;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+input[type=search] {
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=search]:focus {
+  border: 3px solid #555;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgb(86, 83, 83);
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
